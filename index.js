@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://frontend-liart-six-41.vercel.app/',
+    origin:'https://frontend-liart-six-41.vercel.app',
     credentials:true
 }
 
